@@ -1015,7 +1015,7 @@ form button {
   width: fit-content;
   align-self: center;
   font-size: 20px;
-  transform: all 1s;
+  transition: all 1s;
   cursor: pointer;
 }
 
@@ -1157,7 +1157,7 @@ form button:hover {
 
 .footer-texts {
   display: flex;
-  gap: 100px;
+  gap: 300px;
 }
 
 .footer-contact-info,
@@ -1192,8 +1192,14 @@ form button:hover {
 .footer-socials div a {
   border: 1px solid #fff;
   font-size: 20px;
-  padding: 20px;
+  padding: 10px;
   border-radius: 50%;
+  transition: all 1s;
+}
+
+.footer-socials div a:hover {
+  background-color: #fff;
+  color: green;
 }
 
 .footer-socials p {

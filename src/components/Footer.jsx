@@ -5,8 +5,15 @@ import { FaLeaf, FaSquareInstagram } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { IoLogoYoutube } from "react-icons/io5";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Footer = () => {
+
+    useEffect(() => {
+        AOS.init({ duration: 3000 });
+    }, []);
+
     useEffect(() => {
         // Load the X (Twitter) embed script dynamically
         const script = document.createElement("script");
@@ -24,7 +31,7 @@ const Footer = () => {
     return (
         <footer className='footer'>
             <div className='footer-top-container'>
-                <div className='footer-texts'>
+                <div className='footer-texts' data-aos='fade-right'>
                     <div className='footer-quick-links'>
                         <a href="#about">About Us</a>
                         <a href="#services">Services</a>
@@ -37,7 +44,7 @@ const Footer = () => {
                         <p>Cele Area, Isokun Titun, <br /> Oyo, Oyo State</p>
                     </div>
                 </div>
-                <div>
+                <div data-aos="flip-left">
                     <blockquote
                         className="twitter-tweet"
                         data-theme="light"
