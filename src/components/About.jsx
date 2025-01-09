@@ -19,7 +19,7 @@ const About = () => {
                 </p>
                 <img src={AboutUsImg4} alt="Fresh leaves" />
             </div>
-            <img className='about-fresh-leaf' data-aos="fade-up" src={FreshLeaf} alt="A fresh Leaf" />
+            <img className='about-fresh-leaf' src={FreshLeaf} alt="A fresh Leaf" />
             <div className='about-us' data-aos="fade-left">
                 <div>
                     <h2>About Us</h2>

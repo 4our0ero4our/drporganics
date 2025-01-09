@@ -40,8 +40,8 @@ const Hero = () => {
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
+                    <li><a href="#whyus">Why Us</a></li>
                     <li><a href="#consultus">Consult Us</a></li>
-                    <li><a href="#estimonials">Testimonies</a></li>
                 </ul>
             </nav>
             <nav className='mobile-nav' data-aos="fade-down">
@@ -53,8 +53,8 @@ const Hero = () => {
                         <li><a href="#home">Home</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#services">Services</a></li>
+                        <li><a href="#whyus">Why Us</a></li>
                         <li><a href="#consultus">Consult Us</a></li>
-                        <li><a href="#estimonials">Testimonies</a></li>
                     </ul>
                     :
                     ''
