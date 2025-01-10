@@ -17,15 +17,15 @@ const WhyUs = () => {
         '  Guided by tradition, science, and faith, our approach combines the best of ancient wisdom with modern research and a deep understanding of the interconnectedness of body, mind, and spirit.'
     ]
     return (
-        <div className='why-us-section'>
-            <div className='text-and-cta' data-aos="fade-right">
+        <div className='why-us-section' id="whyus">
+            <div className='text-and-cta' data-aos="fade-up">
                 <h1>Why Dr P. Organic Consults?</h1>
                 <p>
                     Dr P. Organics consults is a trusted name in organic products, offering a wide range of natural and sustainable solutions for a healthier lifestyle.
                 </p>
                 <Link to={'#consultus'}><button>Learn more</button></Link>
             </div>
-            <div className="reasons" data-aos="fade-left">
+            <div className="reasons" data-aos="fade-up">
                 <img src={serviceImg} alt="" />
                 <p>
                     <FaQuoteLeft />

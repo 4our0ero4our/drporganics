@@ -12,7 +12,7 @@ const About = () => {
 
     return (
         <section className="about" id="about">
-            <div className='what-we-do' data-aos="fade-right">
+            <div className='what-we-do' data-aos="fade-up">
                 <h1>What We do at <br />Dr. P Organic Consults</h1>
                 <p>
                     We provide effective treatment for conditions such as Chronic ulcers, Kidney Diseases, Fibroid, Hypertension, Diabetes, Parkinson's Disease, HIV, and Sickle Cell Anemia, among others. With Allah’s Mercy, we guarantee positive results tailored to your needs.
@@ -20,7 +20,7 @@ const About = () => {
                 <img src={AboutUsImg4} alt="Fresh leaves" />
             </div>
             <img className='about-fresh-leaf' src={FreshLeaf} alt="A fresh Leaf" />
-            <div className='about-us' data-aos="fade-left">
+            <div className='about-us' data-aos="fade-up">
                 <div>
                     <h2>About Us</h2>
                     <p>

@@ -35,7 +35,7 @@ const ConsultUs = () => {
     };
 
     return (
-        <section className="optIn-div" id="optIn">
+        <section className="optIn-div" id="consultus">
             <div className="optIn" data-aos="zoom-in">
                 <h1>Consult Dr P. Organics</h1>
                 <div className="border"></div>

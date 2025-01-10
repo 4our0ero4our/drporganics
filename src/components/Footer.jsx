@@ -31,7 +31,7 @@ const Footer = () => {
     return (
         <footer className='footer'>
             <div className='footer-top-container'>
-                <div className='footer-texts' data-aos='fade-right'>
+                <div className='footer-texts' data-aos='fade-up'>
                     <div className='footer-quick-links'>
                         <a href="#about">About Us</a>
                         <a href="#services">Services</a>
@@ -44,7 +44,7 @@ const Footer = () => {
                         <p>Cele Area, Isokun Titun, <br /> Oyo, Oyo State</p>
                     </div>
                 </div>
-                <div data-aos="flip-left">
+                <div data-aos="flip-up">
                     <blockquote
                         className="twitter-tweet"
                         data-theme="light"

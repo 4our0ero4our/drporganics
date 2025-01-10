@@ -32,7 +32,7 @@ const Hero = () => {
     }, []);
 
     return (
-        <section id='about' style={{ backgroundImage: `url(${require(`../Assets/Images/${imageRoutes[imagePosition - 1]}`)})`, transition: 'all 1s ease' }} className="hero">
+        <section id='hero' style={{ backgroundImage: `url(${require(`../Assets/Images/${imageRoutes[imagePosition - 1]}`)})`, transition: 'all 1s ease' }} className="hero">
             <div className='hero-overlay'></div>
             <nav className='desktop-nav' data-aos="fade-down">
                 <h1 className='logo organics-text'>Dr P. <span>Organics</span> <FaLeaf style={{ color: "rgb(0, 255, 0)" }} /></h1>

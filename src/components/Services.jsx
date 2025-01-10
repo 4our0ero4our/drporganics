@@ -14,7 +14,7 @@ const Services = () => {
     }, []);
     return (
         <section id='services' className='services'>
-            <div className='from-top' data-aos="fade-down">
+            <div className='from-top' data-aos="fade-up">
                 <h1>Services We Offer</h1>
             </div>
             <div className='service1 service' data-aos="fade-up">
@@ -34,8 +34,8 @@ const Services = () => {
                 <img src={BouquetGarni1} className='featrured-leaf' alt="" />
             </div>
             <div className='service2 service'>
-                <img src={PeppperMintFlower} className='featrured-leaf' data-aos="fade-right" alt="" />
-                <div className='service-info' data-aos="fade-left">
+                <img src={PeppperMintFlower} className='featrured-leaf' data-aos="fade-up" alt="" />
+                <div className='service-info' data-aos="fade-up">
                     <div>
                         <h1>Fertility Solutions</h1>
                         <p>
