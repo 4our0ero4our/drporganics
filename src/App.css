@@ -6,6 +6,7 @@ body {
   max-width: 1700px;
   margin: 0 auto;
   background-color: #fff;
+  overflow-x: hidden;
   /* cursor: url('../src/Assets/Images/A_fresh_Leaf_Edited-removebg-preview.png') 10 10, auto; */
 }
 
@@ -17,6 +18,9 @@ body {
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 a {
