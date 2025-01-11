@@ -14,7 +14,7 @@ const Services = () => {
     }, []);
     return (
         <section id='services' className='services'>
-            <div className='from-top' data-aos="fade-up">
+            <div className='from-top' data-aos="fade-down">
                 <h1>Services We Offer</h1>
             </div>
             <div className='service1 service' data-aos="fade-up">

@@ -18,14 +18,14 @@ const WhyUs = () => {
     ]
     return (
         <div className='why-us-section' id="whyus">
-            <div className='text-and-cta' data-aos="fade-up">
+            <div className='text-and-cta' data-aos="fade-right">
                 <h1>Why Dr P. Organic Consults?</h1>
                 <p>
                     Dr P. Organics consults is a trusted name in organic products, offering a wide range of natural and sustainable solutions for a healthier lifestyle.
                 </p>
                 <Link to={'#consultus'}><button>Learn more</button></Link>
             </div>
-            <div className="reasons" data-aos="fade-up">
+            <div className="reasons" data-aos="fade-left">
                 <img src={serviceImg} alt="" />
                 <p>
                     <FaQuoteLeft />
