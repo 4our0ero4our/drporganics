@@ -15,7 +15,9 @@ const About = () => {
             <div className='what-we-do' data-aos="fade-right">
                 <h1>What We do at <br />Dr. P Organic Consults</h1>
                 <p>
-                    We provide effective treatment for conditions such as Chronic ulcers, Kidney Diseases, Fibroid, Hypertension, Diabetes, Parkinson's Disease, HIV, and Sickle Cell Anemia, among others. With Allah’s Mercy, we guarantee positive results tailored to your needs.
+                    We provide effective treatment for conditions such as Chronic ulcers, Kidney Diseases, Fibroid, Hypertension, Diabetes, Parkinson's Disease, HIV, and Sickle Cell Anemia, among others. <br />
+                    We aslo offer remedies for canser, mouth diseases, asthma, infertility, low sperm counts, liver diseases, tuberculosis, infections, urinary tract diseases, insomnia, porous arthritis, breast cancer, sickle cell, anaemia hepatitis, lupus, leukemia and skin diseases <br />
+                    With Allah’s Mercy, we guarantee positive results tailored to your needs.
                 </p>
                 <img src={AboutUsImg4} alt="Fresh leaves" />
             </div>
